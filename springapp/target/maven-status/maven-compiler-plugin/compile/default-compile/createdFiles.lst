@@ -1,4 +1,6 @@
 by\iba\schastny\model\Message.class
 by\iba\schastny\config\AppConfig.class
+by\iba\schastny\controller\BooksController.class
+by\iba\schastny\model\Book.class
 by\iba\schastny\config\AppInitializer.class
 by\iba\schastny\controller\MessageController.class
