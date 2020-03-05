@@ -4,6 +4,7 @@ import by.iba.schastny.model.book.Book;
 import by.iba.schastny.model.book.BookDao;
 import by.iba.schastny.model.book.impl.BookDaoImpl;
 import by.iba.schastny.service.BookService;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ public class BookServiceImpl implements BookService {
     private final BookDao bookDao = new BookDaoImpl();
 
     @Override
+    @Transactional
     public List<Book> getAllBooks() {
         return bookDao.getAllBooks();
     }

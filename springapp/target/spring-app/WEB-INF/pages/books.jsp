@@ -41,10 +41,8 @@
             </td>
             <td>
                 <a href="/edit/${film.id}">edit</a>
-                <a href="/delete/${film.id}">edit</a>
+                <a href="/delete/${film.id}">delete</a>
             </td>
-
-
         </tr>
     </c:forEach>
 

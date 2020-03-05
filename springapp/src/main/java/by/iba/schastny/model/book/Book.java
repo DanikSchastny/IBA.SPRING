@@ -1,12 +1,33 @@
 package by.iba.schastny.model.book;
 
+import javax.persistence.*;
 import java.util.Objects;
 
+import static by.iba.schastny.constants.ApplicationStringConstants.TABLE_NAME;
+import static by.iba.schastny.constants.ApplicationStringConstants.COLUMN_AMOUNT_OF_PAGES;
+import static by.iba.schastny.constants.ApplicationStringConstants.COLUMN_AUTHOR;
+import static by.iba.schastny.constants.ApplicationStringConstants.COLUMN_NAME;
+import static by.iba.schastny.constants.ApplicationStringConstants.COLUMN_IMAGE_URL;
+import static by.iba.schastny.constants.ApplicationStringConstants.COLUMN_ID;
+
+@Entity
+@Table(name = TABLE_NAME)
 public class Book {
+    @Id
+    @Column(name = COLUMN_ID)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column(name = COLUMN_NAME)
     private String name;
+
+    @Column(name = COLUMN_AUTHOR)
     private String author;
+
+    @Column(name = COLUMN_AMOUNT_OF_PAGES)
     private int pageAmount;
+
+    @Column(name = COLUMN_IMAGE_URL)
     private String imageURL;
 
     public Book(String name, String author, int pageAmount, String imageURL) {
