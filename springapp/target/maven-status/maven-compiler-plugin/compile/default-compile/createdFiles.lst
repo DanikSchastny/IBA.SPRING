@@ -1,6 +1,10 @@
+by\iba\schastny\model\book\BookDao.class
 by\iba\schastny\model\Message.class
 by\iba\schastny\config\AppConfig.class
+by\iba\schastny\service\BookService.class
 by\iba\schastny\controller\BooksController.class
-by\iba\schastny\model\Book.class
-by\iba\schastny\config\AppInitializer.class
 by\iba\schastny\controller\MessageController.class
+by\iba\schastny\service\impl\BookServiceImpl.class
+by\iba\schastny\model\book\Book.class
+by\iba\schastny\model\book\impl\BookDaoImpl.class
+by\iba\schastny\config\AppInitializer.class

@@ -21,8 +21,11 @@
         <td>
             Pages amount
         </td>
+        <td>
+            action
+        </td>
     </tr>
-    <c:forEach var = "book" items="${books}">
+    <c:forEach var = "book" items="${booksList}">
         <tr>
             <td>
                 <img src=${book.imageURL}, width="64", height="64">
@@ -36,6 +39,12 @@
             <td>
                 ${book.pageAmount}
             </td>
+            <td>
+                <a href="/edit/${film.id}">edit</a>
+                <a href="/delete/${film.id}">edit</a>
+            </td>
+
+
         </tr>
     </c:forEach>
 

@@ -1,6 +1,10 @@
-C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\model\Book.java
+C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\model\book\Book.java
+C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\service\impl\BookServiceImpl.java
 C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\controller\MessageController.java
 C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\model\Message.java
+C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\service\BookService.java
 C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\config\AppConfig.java
+C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\model\book\BookDao.java
 C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\config\AppInitializer.java
+C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\model\book\impl\BookDaoImpl.java
 C:\Users\Счастный Даниил\Desktop\IBA\IBA.SPRING\springapp\src\main\java\by\iba\schastny\controller\BooksController.java
